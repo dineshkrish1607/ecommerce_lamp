@@ -61,13 +61,10 @@ sudo chmod -R 755 /var/www/html/E-commerce
 4. Configure Apache
 Create a virtual host configuration file for the project:
 
-bash
-Copy code
 sudo nano /etc/apache2/sites-available/ecommerce.conf
 Add the following configuration:
 
-apache
-Copy code
+
 <VirtualHost *:80>
     ServerAdmin webmaster@localhost
     DocumentRoot /var/www/html/E-commerce
